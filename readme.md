@@ -47,6 +47,14 @@ export default connectToStore(data)(MyView);
 * UIHeader
 * UIBody
 
+## TabBar
+* UITabBar 为了统一ios和android, 使用js写的一套
+* UITabBar.Item
+    * icon 默认图标
+    * selectedIcon 选中图标
+    * badge 小徽章, 用于辅助按钮
+    * title 文字
+
 ## Route
 * UIRoute
     * routeMapper (JSON<路由字符, React.Component>)

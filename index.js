@@ -24,6 +24,9 @@ import UIFrom from './lib/form';
 import UIListView from './lib/pull-refresh-list-view/pull-refresh-list-view';
 import UISimpleRow from './lib/row/simple.row';
 
+//
+import UITabBar from './lib/tabbar/';
+
 
 let UISwitch = null;
 if (QMKit.isAndroid ()) {
@@ -42,6 +45,7 @@ export {
   UIIconBtn,
   UITimerBtn,
 
+  UITabBar,
   UIScene,
   UIHeader,
   UIBody,
