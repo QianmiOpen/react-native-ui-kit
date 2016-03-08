@@ -1,0 +1,20 @@
+{
+  "name": "ui-kit",
+  "version": "1.0.0",
+  "description": " react-native uikit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qianmi",
+    "react",
+    "native",
+    "uikit"
+  ],
+  "author": "d2p",
+  "license": "ISC",
+  "dependencies": {
+    "iflux-native": "1.0.5"
+  }
+}
