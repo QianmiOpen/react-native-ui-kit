@@ -1,3 +1,5 @@
+# 目前还在拆分, 不能保证能使用
+
 # Start
 ```javascript
 import React, { AppRegistry } from 'react-native';
