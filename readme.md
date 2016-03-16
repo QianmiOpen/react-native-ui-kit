@@ -88,6 +88,9 @@ export default connectToStore(data)(MyView);
     * label
     * value
     * editable (boolean) 是否允许编辑
+* UIFrom.Password
+    * label
+    * value
 
 ## Button
 * UIBtn
