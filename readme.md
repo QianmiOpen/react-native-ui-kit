@@ -41,13 +41,17 @@ export default connectToStore(data)(MyView);
 * UIScene
     * style
     * bodyStyle
-    * store (iflux-native store)
     * header
     * hasBack (boolean) 用于是否显示回退按钮
     * onBackHandler 点击回退回调, 默认是回退到上一个scene
     * renderHeader 用于自定义头部
+    * onMount (Function)
+    * refresh (boolean) true的话会包一个scrollview在对外面, 可以用手下拉刷新整个view, 调用onMount
 * UIHeader
+    * header
 * UIBody
+    * onNetworkBreak (Function) 没网络触发
+    * onNetworkBack (Function) 有网络触发
 
 ## TabBar
 * UITabBar 为了统一ios和android, 使用js写的一套
@@ -79,6 +83,7 @@ export default connectToStore(data)(MyView);
 
 ## From
 * UIFrom
+    * validateMap (JSON<name, Array[Regexp]>)
 * UIFrom.Date
     * label
 * UIFrom.Text
@@ -91,6 +96,11 @@ export default connectToStore(data)(MyView);
 * UIFrom.Password
     * label
     * value
+# UIFrom.select
+    * label
+    * value
+    * multi (boolean) 是否允许多选
+    * dataProvider (Promise or Array)
 
 ## Button
 * UIBtn
@@ -111,3 +121,9 @@ export default connectToStore(data)(MyView);
     * onPress
 
 ## Control
+* UIPopover
+    * style
+    * show (boolean)
+* UIOverlay
+    * style
+    * show (boolean)
