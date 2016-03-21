@@ -96,7 +96,7 @@ export default connectToStore(data)(MyView);
 * UIFrom.Password
     * label
     * value
-# UIFrom.select
+* UIFrom.Select
     * label
     * value
     * multi (boolean) 是否允许多选
