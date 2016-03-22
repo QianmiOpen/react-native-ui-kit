@@ -8,6 +8,7 @@ import React, {SwitchIOS} from 'react-native';
 import UIBtn from './lib/button/button';
 import UIIconBtn from './lib/button/icon.button';
 import UITimerBtn from './lib/button/timer.button';
+import UIButtonGroup from './lib/button.group';
 
 //
 import UIScene from './lib/scene/';
@@ -38,6 +39,7 @@ export {
   UIBtn,
   UIIconBtn,
   UITimerBtn,
+  UIButtonGroup,
 
   UITabBar,
   UIScene,
