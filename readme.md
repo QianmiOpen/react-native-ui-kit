@@ -119,6 +119,12 @@ export default connectToStore(data)(MyView);
     * text
     * textStyle
     * onPress
+* UIButtonGroup
+    * style
+    * selectStyle
+    * selectTextStyle
+    * onChange (Function)
+    * btnList (Array) [{name, onPress} | '' ...]
 
 ## Control
 * UIPopover
