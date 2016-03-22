@@ -1,6 +1,6 @@
 # 目前还在拆分, 不能保证能使用
 
-see 
+[DEMO](https://github.com/brothers-js/react-native-ui-kit-demo)
 
 # Start
 ```javascript
