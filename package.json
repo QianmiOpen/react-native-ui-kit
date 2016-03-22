@@ -12,9 +12,9 @@
     "native",
     "uikit"
   ],
-  "author": "d2p",
+  "author": "tk hf zf",
   "license": "ISC",
   "dependencies": {
-    "iflux-native": "1.0.5"
+    "iflux-native": ""
   }
 }

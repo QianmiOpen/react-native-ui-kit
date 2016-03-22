@@ -15,7 +15,9 @@ import UIHeader from './lib/scene/header';
 import UIBody from './lib/scene/body';
 
 //
+import UIApp from './lib/app';
 import UIRoute from './lib/route';
+import UIKit from './lib/kit';
 
 //
 import UIFrom from './lib/form';
@@ -27,19 +29,11 @@ import UISimpleRow from './lib/row/simple.row';
 //
 import UITabBar from './lib/tabbar/';
 
-
-let UISwitch = null;
-if (QMKit.isAndroid ()) {
-  UISwitch = require ('SwitchAndroid');
-}
-else {
-  UISwitch = SwitchIOS;
-}
-
 export {
-  UISwitch,
 
+  UIApp,
   UIRoute,
+  UIKit,
 
   UIBtn,
   UIIconBtn,
