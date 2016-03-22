@@ -23,8 +23,8 @@ import UIKit from './lib/kit';
 import UIFrom from './lib/form';
 
 //
-import UIListView from './lib/pull-refresh-list-view/pull-refresh-list-view';
-import UISimpleRow from './lib/row/simple.row';
+import UIListView from './lib/list.view';
+import UISimpleRow from './lib/list.row/simple.row';
 
 //
 import UITabBar from './lib/tabbar/';
