@@ -2,7 +2,7 @@
  *
  * expose
  */
-import React, {SwitchIOS} from 'react-native';
+import React, {SwitchIOS, TabBarIOS} from 'react-native';
 
 //
 import UIBtn from './lib/button/button';
