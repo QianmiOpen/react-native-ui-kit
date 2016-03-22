@@ -49,6 +49,7 @@ export default connectToStore(data)(MyView);
     * refresh (boolean) true的话会包一个scrollview在对外面, 可以用手下拉刷新整个view, 调用onMount
 * UIHeader
     * header
+    * hasBack (boolean)
 * UIBody
     * onNetworkBreak (Function) 没网络触发
     * onNetworkBack (Function) 有网络触发
