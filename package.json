@@ -18,6 +18,7 @@
     "iflux-native": "*",
     "immutable": "*",
     "react-timer-mixin": "*",
-    "react-mixin": "*"
+    "react-mixin": "*",
+    "moment": "^2.10.6"
   }
 }
