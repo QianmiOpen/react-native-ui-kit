@@ -89,7 +89,7 @@ export default connectToStore(data)(MyView);
     * validateMap (JSON<name, Array[Regexp]>)
 * UIFrom.Item
     * label
-* UIFrom.Date
+* UIFrom.Date (注意: 必须使用UIApp作为顶层Root, 会使用Popover弹出日期)
     * label
     * mode (string) date time datetime
 * UIFrom.Text
@@ -107,6 +107,13 @@ export default connectToStore(data)(MyView);
 * UIFrom.Password
     * label
     * value
+    * toggleAble (boolean) 是否可以查看非密文
+    * editable (boolean) 是否允许编辑
+    * onBlur (Function)
+    * keyboardType (string)
+    * maxLength (int)
+    * placeholder (string)
+    * onChangeText (Function)
 * UIFrom.Select
     * label
     * value
