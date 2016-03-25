@@ -87,8 +87,11 @@ export default connectToStore(data)(MyView);
 ## From
 * UIFrom
     * validateMap (JSON<name, Array[Regexp]>)
+* UIFrom.Item
+    * label
 * UIFrom.Date
     * label
+    * mode (string) date time datetime
 * UIFrom.Text
     * label
     * text
@@ -96,6 +99,11 @@ export default connectToStore(data)(MyView);
     * label
     * value
     * editable (boolean) 是否允许编辑
+    * onBlur (Function)
+    * keyboardType (string)
+    * maxLength (int)
+    * placeholder (string)
+    * onChangeText (Function)
 * UIFrom.Password
     * label
     * value

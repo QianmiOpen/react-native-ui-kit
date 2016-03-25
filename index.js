@@ -21,7 +21,7 @@ import UIRoute from './lib/route';
 import UIKit from './lib/kit';
 
 //
-import UIFrom from './lib/form';
+import UIForm from './lib/form';
 
 //
 import UIListView from './lib/list.view';
@@ -51,7 +51,7 @@ export {
   UIHeader,
   UIBody,
 
-  UIFrom,
+  UIForm,
 
   UIListView,
   UISimpleRow,
