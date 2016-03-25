@@ -139,7 +139,10 @@ export default connectToStore(data)(MyView);
     
 ## ScrollView
 * UIScrollView
+    * style
     * onPull (Function)
     * onPush (Function)
 * UIPullRefreshScrollView
+    * style
+    * needInitLoading (boolean) 是否显示加载
     * onRefresh (Function)
