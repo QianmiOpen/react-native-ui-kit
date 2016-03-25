@@ -15,6 +15,9 @@
   "author": "tk hf zf",
   "license": "ISC",
   "dependencies": {
-    "iflux-native": ""
+    "iflux-native": "*",
+    "immutable": "*",
+    "react-timer-mixin": "*",
+    "react-mixin": "*"
   }
 }
