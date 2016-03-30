@@ -27,7 +27,7 @@ import UIKit from './lib/kit';
 import UIForm from './lib/form';
 
 //
-import UIListView from './lib/list.view';
+import UIListView from './lib/list.view/list';
 import UISimpleRow from './lib/list.row/simple.row';
 
 //
