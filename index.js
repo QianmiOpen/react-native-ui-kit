@@ -33,6 +33,8 @@ import UISimpleRow from './lib/list.row/simple.row';
 //
 import UITabBar from './lib/tabbar/';
 
+//
+import UICarousel from './lib/carousel';
 
 //
 import UIScrollView from './lib/scrollview/advance.scroll.view';
@@ -56,6 +58,8 @@ export {
   UIBody,
 
   UIForm,
+
+  UICarousel,
 
   UIListView,
   UISimpleRow,
