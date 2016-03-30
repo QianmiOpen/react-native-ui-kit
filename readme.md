@@ -2,6 +2,9 @@
 
 [DEMO](https://github.com/brothers-js/react-native-ui-kit-demo)
 
+
+
+
 # Start
 ```javascript
 import React, { AppRegistry } from 'react-native';
@@ -19,7 +22,10 @@ AppRegistry.registerComponent('', () => {
 });
 ```
 
-# Scene
+## Config
+* defaultHeaderStyle 默认导航条样式
+
+## Scene
 ```javascript
 import {UIScene} from 'ui-kit';
 import {connectToStore, Store} from 'iflux-native';

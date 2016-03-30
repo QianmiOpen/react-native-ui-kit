@@ -5,6 +5,9 @@
 import React, {SwitchIOS, TabBarIOS} from 'react-native';
 
 //
+import UIConfig from './lib/config';
+
+//
 import UIBtn from './lib/button/button';
 import UIIconBtn from './lib/button/icon.button';
 import UITimerBtn from './lib/button/timer.button';
@@ -36,6 +39,7 @@ import UIScrollView from './lib/scrollview/advance.scroll.view';
 import UIPullRefreshScrollView from './lib/scrollview/';
 
 export {
+  UIConfig,
 
   UIApp,
   UIRoute,
