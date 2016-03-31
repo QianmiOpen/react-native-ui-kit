@@ -157,6 +157,12 @@ export default connectToStore(data)(MyView);
 * UIOverlay
     * style
     * show (boolean)
+* UIProgress
+    * style
+    * maxValue
+    * value
+    * maxValueColor
+    * valueColor
     
 ## ScrollView
 * UIScrollView

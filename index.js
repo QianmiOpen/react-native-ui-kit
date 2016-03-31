@@ -40,8 +40,12 @@ import UICarousel from './lib/carousel';
 import UIScrollView from './lib/scrollview/advance.scroll.view';
 import UIPullRefreshScrollView from './lib/scrollview/';
 
+//
+import UIProgress from './lib/progress';
+
 export {
   UIConfig,
+
 
   UIApp,
   UIRoute,
@@ -60,6 +64,7 @@ export {
   UIForm,
 
   UICarousel,
+  UIProgress,
 
   UIListView,
   UISimpleRow,
