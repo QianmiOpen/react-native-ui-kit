@@ -163,6 +163,7 @@ export default connectToStore(data)(MyView);
     * value
     * maxValueColor
     * valueColor
+    * animated (boolean)
     
 ## ScrollView
 * UIScrollView
