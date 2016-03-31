@@ -23,7 +23,27 @@ AppRegistry.registerComponent('', () => {
 ```
 
 ## Config
-* defaultHeaderStyle 默认导航条样式
+```
+const Config = {
+  /**
+   * 默认导航条样式
+   */
+  scene: {
+    defaultHeaderStyle: null,
+  },
+
+  /**
+   * 
+   */
+  fetch: {
+    host: '',
+    success: (r) => {
+    },
+    fail: (r) => {
+    },
+  }
+}
+```
 
 ## Scene
 ```javascript
