@@ -39,7 +39,7 @@ import UICarousel from './lib/carousel';
 
 //
 import UIScrollView from './lib/scrollview/advance.scroll.view';
-import UIPullRefreshScrollView from './lib/scrollview/';
+import UIRefreshControl from './lib/scrollview/refresh.control';
 
 //
 import UIProgress from './lib/progress';
@@ -72,5 +72,5 @@ export {
   UISimpleRow,
 
   UIScrollView,
-  UIPullRefreshScrollView,
+  UIRefreshControl,
 }

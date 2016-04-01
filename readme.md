@@ -215,9 +215,10 @@ export default connectToStore(data)(MyView);
 ## ScrollView
 * UIScrollView
     * style
-    * onPull (Function)
-    * onPush (Function)
-* UIPullRefreshScrollView
-    * style
-    * needInitLoading (boolean) 是否显示加载
-    * onRefresh (Function)
+    * onBottomHeight (int)  ios only
+    * onBottomPush (Function) ios only
+    * onBottomPushing (Function) ios only
+    * onTopHeight (int) ios only
+    * onTopPull (Function) ios only
+    * onTopPulling (Function) ios only
+* UIRefreshControl 你必须继承这个, 然后自己实现这个的逻辑操作
