@@ -221,4 +221,6 @@ export default connectToStore(data)(MyView);
     * onTopHeight (int) ios only
     * onTopPull (Function) ios only
     * onTopPulling (Function) ios only
-* UIRefreshControl 你必须继承这个, 然后自己实现这个的逻辑操作
+* UIRefreshControl
+    * pullHeight
+    * mode 'normal' 'pull' 'refresh'
