@@ -36,7 +36,9 @@ const Config = {
    *
    */
   fetch: {
+    //是否开启响应日志
     debug: false,
+    //默认请求头
     request: {
       method: 'GET',
       headers: {
@@ -44,10 +46,29 @@ const Config = {
         'Content-Type': 'application/json',
       }
     },
+    //默认域名
     host: '',
-    handler: (responseText) => {
+    //回调解析
+    handler: (r) => {
+      return {result: r.code == 200, data: r.data};
     }
-  }
+  },
+
+  /**
+   * 
+   */
+  list: {
+    //响应回来的解析对应名称
+    response: {
+      totalName: 'total',
+      dataName: 'dataList',
+    },
+    //请求的时候对应名称
+    request: {
+      pageName: 'pageIndex',
+      pageSize: 'pageSize',
+    }
+  },
 }
 ```
 
