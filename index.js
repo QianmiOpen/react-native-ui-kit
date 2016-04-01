@@ -22,6 +22,7 @@ import UIBody from './lib/scene/body';
 import UIApp from './lib/app';
 import UIRoute from './lib/route';
 import UIKit from './lib/kit';
+import UIFetch from './lib/fetch';
 
 //
 import UIForm from './lib/form';
@@ -50,6 +51,7 @@ export {
   UIApp,
   UIRoute,
   UIKit,
+  UIFetch,
 
   UIBtn,
   UIIconBtn,

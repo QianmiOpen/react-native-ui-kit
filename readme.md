@@ -26,24 +26,29 @@ AppRegistry.registerComponent('', () => {
 ```
 const Config = {
   /**
-   *
+   * 默认导航条样式
    */
   scene: {
-    //默认头样式
     defaultHeaderStyle: null,
   },
 
   /**
    *
    */
-   fetch: {
-      //默认请求host
-      host: '',
-      //UIFetch 影响回调处理
-      handler: (responseText) => {
-        return {result: true | false, data: ...}
+  fetch: {
+    debug: false,
+    request: {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Platform': Platform.OS
       }
-   }
+    },
+    host: '',
+    handler: (responseText) => {
+    }
+  }
 }
 ```
 
