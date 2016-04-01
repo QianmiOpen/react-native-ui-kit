@@ -42,7 +42,6 @@ const Config = {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Platform': Platform.OS
       }
     },
     host: '',
@@ -62,7 +61,7 @@ class MyView extends React.Component {
         let store = this.props.store;
         return (
             <UIScene
-                store={store}>
+                >
                 ....
             </UIScene>
         );
