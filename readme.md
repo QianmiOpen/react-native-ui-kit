@@ -120,11 +120,13 @@ export default connectToStore(data)(MyView);
 ## Route
 * UIRoute
     * routeMapper (JSON<路由字符, React.Component>)
+    * routeFilter (Function) 用于跳转Scene的时候可以拦截一下, 比如有些场景需要登录, 就可以过滤一下
 
 ## ListView Row
 * UIListView
     * style
-    * dataProvider (Function | string) 返回一个promise对象的函数, 如果是string, 默认是会用post去请求
+    * dataSource (Function 只接受promise| string 请求地址| Array 静态数据)  
+    * renderEmpty 
     * renderRow
     * renderSection 当dataProvider返回时一个json的时候会使用这个
     * renderHeader
@@ -141,14 +143,18 @@ export default connectToStore(data)(MyView);
 * UIFrom
     * validateMap (JSON<name, Array[Regexp]>)
 * UIFrom.Item
+    * icon
     * label
 * UIFrom.Date (注意: 必须使用UIApp作为顶层Root, 会使用Popover弹出日期)
+    * icon
     * label
     * mode (string) date time datetime
 * UIFrom.Text
+    * icon
     * label
     * text
 * UIFrom.Input
+    * icon
     * label
     * value
     * editable (boolean) 是否允许编辑
@@ -158,6 +164,7 @@ export default connectToStore(data)(MyView);
     * placeholder (string)
     * onChangeText (Function)
 * UIFrom.Password
+    * icon
     * label
     * value
     * toggleAble (boolean) 是否可以查看非密文
@@ -168,6 +175,7 @@ export default connectToStore(data)(MyView);
     * placeholder (string)
     * onChangeText (Function)
 * UIFrom.Select
+    * icon
     * label
     * value
     * multi (boolean) 是否允许多选
@@ -190,8 +198,11 @@ export default connectToStore(data)(MyView);
     * text
     * textStyle
     * onPress
+    * direction ("v" 上下 | "h" 左右)
 * UIButtonGroup
     * style
+    * defaultStyle 
+    * defaultTextStyle 
     * selectStyle
     * selectTextStyle
     * onChange (Function)
