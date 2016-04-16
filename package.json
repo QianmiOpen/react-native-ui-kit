@@ -21,6 +21,7 @@
     "react-mixin": "*",
     "moment": "^2.10.6",
     "react-native-viewpager": "^0.1.6",
-    "react-native-camera": "*"
+    "react-native-camera": "*",
+    "react-native-image-picker": "*"
   }
 }
