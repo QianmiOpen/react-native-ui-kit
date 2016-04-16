@@ -73,6 +73,10 @@ const Config = {
 ```
 
 ## Scene
+* ImagePicker 从设备中获取选中的图片
+    * msg.emit('route:ImagePicker', 回调函数)
+* CameraPicker 从摄像头中获取图片
+    * msg.emit('route:CameraPicker', 回调函数)
 ```javascript
 import {UIScene} from 'ui-kit';
 import {connectToStore, Store} from 'iflux-native';
@@ -91,10 +95,11 @@ class MyView extends React.Component {
 export default connectToStore(data)(MyView);
 ```
 
+
 ## App
 * UIApp
-    * 提供 this.context().actionSheet().showActionSheetWithOptions()
-    * 提供 this.context().popover().show()
+    * 提供 msg.emit('ui.popover', 组件)
+    * 提供 msg.emit('ui.actionSheet', [{label:..,handler:..}....])
 
 ## Root
 * UIScene
