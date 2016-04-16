@@ -1,7 +1,6 @@
-# 目前还在拆分, 不能保证能使用
+# 目前都只在ios上测试通过, android后期慢慢增加
 
 [DEMO](https://github.com/brothers-js/react-native-ui-kit-demo)
-
 
 
 
@@ -72,11 +71,11 @@ const Config = {
 }
 ```
 
-## Scene
+## Scene 以下是几个已封好的场景
 * ImagePicker 从设备中获取选中的图片
-    * msg.emit('route:ImagePicker', 回调函数)
+    * msg.emit('route:ImagePicker', {header: '', callback: '', pageSize: 一次获取多少张照片})
 * CameraPicker 从摄像头中获取图片
-    * msg.emit('route:CameraPicker', 回调函数)
+    * msg.emit('route:CameraPicker', {header: '', callback: ''})
 ```javascript
 import {UIScene} from 'ui-kit';
 import {connectToStore, Store} from 'iflux-native';
