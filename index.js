@@ -17,6 +17,7 @@ import UIButtonGroup from './lib/button.group';
 import UIScene from './lib/scene/';
 import UIHeader from './lib/scene/header';
 import UIBody from './lib/scene/body';
+import UIActionSheet from './lib/actionsheet';
 
 //
 import UIApp from './lib/app';
@@ -62,6 +63,7 @@ export {
   UIScene,
   UIHeader,
   UIBody,
+  UIActionSheet,
 
   UIForm,
 

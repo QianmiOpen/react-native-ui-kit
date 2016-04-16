@@ -91,6 +91,10 @@ class MyView extends React.Component {
 export default connectToStore(data)(MyView);
 ```
 
+## App
+* UIApp
+    * 提供 this.context().actionSheet().showActionSheetWithOptions()
+    * 提供 this.context().popover().show()
 
 ## Root
 * UIScene
@@ -108,6 +112,8 @@ export default connectToStore(data)(MyView);
 * UIBody
     * onNetworkBreak (Function) 没网络触发
     * onNetworkBack (Function) 有网络触发
+* UIActionSheet (无需独自使用, 只要使用 UIApp即可)
+    * 参考 https://github.com/exponentjs/react-native-action-sheet
 
 ## TabBar
 * UITabBar 为了统一ios和android, 使用js写的一套
@@ -180,6 +186,21 @@ export default connectToStore(data)(MyView);
     * value
     * multi (boolean) 是否允许多选
     * dataProvider (Promise or Array)
+* UIForm.Image 用于显示图片
+    * icon
+    * label
+    * value
+    * imageStyle
+* UIForm.Upload 用于上传图片 (依赖 https://github.com/lwansbrough/react-native-camera)
+    * icon
+    * label
+    * way  ("picker" 从设备选择 | "camera" 从摄像头照相 | "all" 可选择, 将会弹出一个ActionSheet选择前面2个)
+* UIForm.Switch 用于切换
+    * icon
+    * label
+    * value       
+    * selectValue 选中的值
+    * unSelectValue 未选中的值
 
 ## Button
 * UIBtn
