@@ -21,7 +21,7 @@ AppRegistry.registerComponent('', () => {
 });
 ```
 
-## Config
+## Config (每个组件都有Config配置, 具体见每个组件里面的config.js)
 ```
 const Config = {
   /**
@@ -230,8 +230,8 @@ export default connectToStore(data)(MyView);
     * defaultTextStyle 
     * selectStyle
     * selectTextStyle
-    * onChange (Function)
-    * btnList (Array) [{name, onPress} | '' ...]
+    * onSelect (Function)
+    * dataProvider (Array) [{name, onPress} | '' ...]
 
 ## Control
 * UIPopover
