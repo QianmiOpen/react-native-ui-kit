@@ -23,52 +23,6 @@ AppRegistry.registerComponent('', () => {
 
 ## Config (每个组件都有Config配置, 具体见每个组件里面的config.js)
 ```
-const Config = {
-  /**
-   * 默认导航条样式
-   */
-  scene: {
-    defaultHeaderStyle: null,
-  },
-
-  /**
-   *
-   */
-  fetch: {
-    //是否开启响应日志
-    debug: false,
-    //默认请求头
-    request: {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-      }
-    },
-    //默认域名
-    host: '',
-    //回调解析
-    handler: (r) => {
-      return {result: r.code == 200, data: r.data};
-    }
-  },
-
-  /**
-   * 
-   */
-  list: {
-    //响应回来的解析对应名称
-    response: {
-      totalName: 'total',
-      dataName: 'dataList',
-    },
-    //请求的时候对应名称
-    request: {
-      pageName: 'pageIndex',
-      pageSize: 'pageSize',
-    }
-  },
-}
 ```
 
 ## Scene 以下是几个已封好的场景
@@ -187,9 +141,8 @@ export default connectToStore(data)(MyView);
 * UIFrom.Select
     * icon
     * label
-    * value
-    * multi (boolean) 是否允许多选
-    * dataProvider (Promise or Array)
+    * value 
+    * dataSource [{label:xx, value:xx}...]
 * UIForm.Image 用于显示图片
     * icon
     * label
