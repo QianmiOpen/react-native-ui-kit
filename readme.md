@@ -152,6 +152,8 @@ export default connectToStore(data)(MyView);
     * icon
     * label
     * way  ("picker" 从设备选择 | "camera" 从摄像头照相 | "all" 可选择, 将会弹出一个ActionSheet选择前面2个)
+    * qiniuDomain 上传后使用的七牛域名
+    * qiniuTokenUrl 用于获取上传的七牛的token
 * UIForm.Switch 用于切换
     * icon
     * label
