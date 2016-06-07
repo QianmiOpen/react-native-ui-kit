@@ -103,21 +103,21 @@ export default connectToStore(data)(MyView);
     * onPress
     * nextScene 点击后跳转的下一个场景, 设置了这个, 可以不设置onPress
 
-## From
-* UIFrom
+## Form
+* UIForm
     * validateMap (JSON<name, Array[Regexp]>)
-* UIFrom.Item
+* UIForm.Item
     * icon
     * label
-* UIFrom.Date (注意: 必须使用UIApp作为顶层Root, 会使用Popover弹出日期)
+* UIForm.Date (注意: 必须使用UIApp作为顶层Root, 会使用Popover弹出日期)
     * icon
     * label
     * mode (string) date time datetime
-* UIFrom.Text
+* UIForm.Text
     * icon
     * label
     * text
-* UIFrom.Input
+* UIForm.Input
     * icon
     * label
     * value
@@ -127,7 +127,7 @@ export default connectToStore(data)(MyView);
     * maxLength (int)
     * placeholder (string)
     * onChangeText (Function)
-* UIFrom.Password
+* UIForm.Password
     * icon
     * label
     * value
@@ -138,7 +138,7 @@ export default connectToStore(data)(MyView);
     * maxLength (int)
     * placeholder (string)
     * onChangeText (Function)
-* UIFrom.Select
+* UIForm.Select
     * icon
     * label
     * value 
