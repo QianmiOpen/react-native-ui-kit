@@ -1,6 +1,18 @@
-# 目前都只在ios上测试通过, android后期慢慢增加
+# Android 和 IOS 都可使用
 
 [DEMO](https://github.com/brothers-js/react-native-ui-kit-demo)
+
+## 依赖
+```javascript
+"iflux-native": "*",
+"immutable": "*",
+"react-timer-mixin": "*",
+"react-mixin": "*",
+"moment": "^2.10.6",
+"react-native-viewpager": "^0.1.6",
+"react-native-camera": "*",
+"react-native-image-picker": "*"
+```
 
 
 

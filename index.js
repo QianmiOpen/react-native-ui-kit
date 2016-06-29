@@ -2,7 +2,8 @@
  *
  * expose
  */
-import React, {SwitchIOS, TabBarIOS} from 'react-native';
+import React from 'react';
+import {SwitchIOS, TabBarIOS} from 'react-native';
 
 //
 import UIConfig from './lib/config';
