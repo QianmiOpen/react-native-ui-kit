@@ -137,6 +137,10 @@ export default connectToStore(data)(MyView);
     * selectedIcon 选中图标
     * badge 小徽章, 用于辅助按钮
     * title 文字
+* UITabBarScene
+    * tabItems [{sceneName: xx, title: xxx, selectIcon: '', icon: ''} ...]
+    * routeMap
+    * select 默认0
 
 ## Route
 * UIRoute

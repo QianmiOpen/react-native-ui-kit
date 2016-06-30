@@ -36,6 +36,7 @@ import UISimpleRow from './lib/list.row/simple.row';
 
 //
 import UITabBar from './lib/tabbar/';
+import UITabBarScene from './lib/scene.tabbar';
 
 //
 import UICarousel from './lib/carousel';
@@ -64,6 +65,8 @@ export {
     UIButtonGroup,
 
     UITabBar,
+    UITabBarScene,
+
     UIScene,
     UIScrollScene,
     UIHeader,
