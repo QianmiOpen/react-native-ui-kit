@@ -38,8 +38,6 @@ AppRegistry.registerComponent('', () => {
 ```
 
 ## Scene 以下是几个已封好的场景
-* ImagePicker 从设备中获取选中的图片
-    * msg.emit('route:ImagePicker', {header: '', callback: '', pageSize: 一次获取多少张照片})
 * CameraPicker 从摄像头中获取图片
     * msg.emit('route:CameraPicker', {header: '', callback: ''})
 ```javascript
@@ -119,33 +117,13 @@ export default connectToStore(data)(MyView);
     * renderHeader 用于自定义头部
     * onMount (Function)
     * refresh (boolean) true的话会包一个scrollview在对外面, 可以用手下拉刷新整个view, 调用onMount
+* UIScrollScene (属性同上) 主要提供下拉刷新的场景
+    * topView (React.Component) 在scrollView上面的视图, 可为空
+    * bottomView (React.Component) 在scrollView下面的视图, 可为空
+    * scrollViewStyle
 * UIHeader
     * header
     * hasBack (boolean)
-```
-export default {
-
-    /**
-     *
-     */
-    style: null,
-
-    /**
-     * 头样式
-     */
-    headerStyle: null,
-
-    /**
-     * 头文字样式
-     */
-    headerTextStyle: null,
-
-    /**
-     * 启动动画
-     */
-    useAnimation: true,
-};
-```
 * UIBody
     * onNetworkBreak (Function) 没网络触发
     * onNetworkBack (Function) 有网络触发

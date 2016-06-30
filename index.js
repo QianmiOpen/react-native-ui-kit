@@ -16,6 +16,7 @@ import UIButtonGroup from './lib/button.group';
 
 //
 import UIScene from './lib/scene/';
+import UIScrollScene from './lib/scene/index.scroll';
 import UIHeader from './lib/scene/header';
 import UIBody from './lib/scene/body';
 import UIActionSheet from './lib/actionsheet';
@@ -64,6 +65,7 @@ export {
 
     UITabBar,
     UIScene,
+    UIScrollScene,
     UIHeader,
     UIBody,
     UIActionSheet,
