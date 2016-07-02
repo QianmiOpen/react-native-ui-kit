@@ -48,11 +48,14 @@ import UIRefreshControl from './lib/scrollview/refresh.control';
 //
 import UIProgress from './lib/progress';
 import UIWebView from './lib/webview';
+import UICascade from './lib/cascade';
 
 export {
     UIConfig,
 
     UIWebView,
+
+    UICascade,
 
     UIApp,
     UIRoute,
