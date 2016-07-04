@@ -49,6 +49,7 @@ import UIRefreshControl from './lib/scrollview/refresh.control';
 import UIProgress from './lib/progress';
 import UIWebView from './lib/webview';
 import UICascade from './lib/cascade';
+import UISearch from './lib/search';
 
 export {
     UIConfig,
@@ -56,6 +57,7 @@ export {
     UIWebView,
 
     UICascade,
+    UISearch,
 
     UIApp,
     UIRoute,
