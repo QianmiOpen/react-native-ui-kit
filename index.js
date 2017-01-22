@@ -18,6 +18,7 @@ import UITimerBtn from './lib/button/timer.button';
 import UIScene from './lib/scene/';
 import UIHeader from './lib/scene/header';
 import UIBody from './lib/scene/body';
+import UIBackground from './lib/scene/background';
 
 //
 import UIRoute from './lib/route';
@@ -54,6 +55,7 @@ export {
     UIScene,
     UIHeader,
     UIBody,
+    UIBackground,
 
     UIListView,
     UISimpleRow,
