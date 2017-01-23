@@ -23,11 +23,10 @@ import UIBackground from './lib/scene/background';
 //
 import UIRoute from './lib/route';
 import UIKit from './lib/kit';
-import UIFetch from './lib/fetch';
+import UIFetch from './lib/net/fetch';
 
 //
-import UIListView from './lib/list.view/list';
-import UISimpleRow from './lib/list.row/simple.row';
+import UIListView from './lib/listview/list';
 
 //
 import UITabBar from './lib/tabbar/';
@@ -58,5 +57,4 @@ export {
     UIBackground,
 
     UIListView,
-    UISimpleRow,
 }
